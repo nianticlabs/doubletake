@@ -1,0 +1,46 @@
+name: doubletake
+channels:
+  - default
+  - pytorch
+  - conda-forge
+  - nvidia
+  - pytorch3d
+dependencies:
+  - clang=15.0.7
+  - llvm-openmp=15.0.7
+  - python=3.9.7
+  - numpy=1.26.4
+  - pytorch=2.0.1
+  - torchvision
+  - pytorch-cuda=11.7
+  - cudatoolkit-dev=11.7  # nvcc
+  - lightning=2.0.0
+  - pytorch3d=0.7.4 # mesh rendering, https://github.com/facebookresearch/pytorch3d/issues/1679
+  - pillow # image op
+  - tensorboard # logging
+  - matplotlib # plotting
+  - pip
+  - pip:
+    - black==23.1.0
+    - isort==5.12.0
+    - kornia==0.6.7 # gradients
+    - antialiased-cnns # anti aliased resnet
+    - efficientnet_pytorch
+    - timm # efficent
+    - trimesh # mesh loading/storage, and mesh generation
+    - transforms3d # for NeuralRecon's arkit
+    - einops # batching one liners
+    - moviepy # storing videos
+    - pyrender # rendering meshes
+    - open3d==0.18.0 # mesh fusion
+    - scipy # transformations and a few others
+    - protobuf<4.21.0 # lighting/tensorboard fix
+    - setuptools==59.5.0 # fix for tensorboard
+    - pytest==7.2.2
+    - pytest-cov==2.7.1
+    - pytest-timeout==2.1.0
+    - pytest-fail-slow==0.3.0
+    - loguru==0.7.2
+    - https://github.com/JamieWatson683/scikit-image/archive/single_mesh.zip # single mesh exporting for measure.marching_cubes
+    - opencv-python==4.9.0.80
+    - ninja==1.11.1.1
