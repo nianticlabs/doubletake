@@ -20,6 +20,7 @@ dependencies:
   - tensorboard # logging
   - matplotlib # plotting
   - gxx=8.5 # for JIT compiling
+  - libxcrypt=4.4 # as above
   - pip
   - pip:
     - black==23.1.0
@@ -32,9 +33,9 @@ dependencies:
     - transforms3d # for NeuralRecon's arkit
     - einops # batching one liners
     - moviepy # storing videos
-    - pyrender # rendering meshes
+    - pyrender==0.1.45 # rendering meshes
     - open3d==0.18.0 # mesh fusion
-    - scipy # transformations and a few others
+    - scipy==1.12.0 # transformations and a few others
     - protobuf<4.21.0 # lighting/tensorboard fix
     - setuptools==59.5.0 # fix for tensorboard
     - pytest==7.2.2

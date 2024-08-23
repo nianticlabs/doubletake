@@ -110,7 +110,7 @@ Please see the paper and supplemental material for details on runtime. We do not
 
 ## 🏃 Running out of the box!
 
-We've included two scans for people to try out immediately with the code. You can download these scans [from here](https://drive.google.com/file/d/1x-auV7vGCMdu5yZUMPcoP83p77QOuasT/view?usp=sharing).
+We've included two scans for people to try out immediately with the code. You can download these scans [from here](https://storage.googleapis.com/niantic-lon-static/research/doubletake/vdr.zip).
 
 Steps:
 1. Download weights for the `hero_model` into the weights directory.
