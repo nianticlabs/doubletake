@@ -68,7 +68,7 @@ pip install -e .
 
 Some C++ code will compile JIT using ninja the first time you use any of the fusers. Should be quick.
 
-In case you don't have this in your ~/.bashrc already, you should run:
+In case you don't have this in your `~/.bashrc` already, you should run:
 ```shell
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
 ```
