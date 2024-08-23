@@ -19,6 +19,7 @@ dependencies:
   - pillow # image op
   - tensorboard # logging
   - matplotlib # plotting
+  - gxx=8.5 # for JIT compiling
   - pip
   - pip:
     - black==23.1.0
