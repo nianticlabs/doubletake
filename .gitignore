@@ -17,6 +17,6 @@ results
 *.egg-info/
 *.egg
 
-weights
+weights/*
 
-outputs
+outputs/*
