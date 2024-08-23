@@ -72,6 +72,7 @@ In case you don't have this in your `~/.bashrc` already, you should run:
 ```shell
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
 ```
+If you get a `GLIBCXX_3.4.29` not found error it's very likely this. 
 
 ## 📦 Trained Models and Precomputed Meshes/Scores
 We provide three models. The standard DoubleTake model used for incremental, offline, and revisit evaluation on all datasets and figures in the paper, a slimmed down faster version of DoubleTake, and the vanilla SimpleRecon model we used for SimpleRecon scores. Use the links in the table to access the weights for each. The scores here are very slightly different (better) than those in the paper due to a slight bug fix in training data renders.
