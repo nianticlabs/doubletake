@@ -2,7 +2,7 @@
 .vscode/
 debug_scripts/
 debug_dump
-datasets
+datasets/*
 logs/
 logs
 models/*.ckpt
