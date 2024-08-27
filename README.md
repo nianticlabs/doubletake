@@ -47,6 +47,8 @@ Please, refer to the the [license file](LICENSE) for terms of usage. If you use 
 
 DoubleTake takes as input posed RGB images, and outputs a depth map for a target image. Under the hood, it uses a mesh it itself builds either online (incrementally) or offline (mesh built on one pass and used for better depth on the second pass) to improve its own depth estimates.
 
+https://github.com/user-attachments/assets/269c658a-7325-4b52-98ab-bd3505f045db
+
 ## ⚙️ Setup
 
 We are going to create a new Mamba environment called `doubletake`. If you don't have Mamba, you can install it with:
