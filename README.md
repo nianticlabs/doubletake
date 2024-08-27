@@ -45,7 +45,7 @@ Please, refer to the the [license file](LICENSE) for terms of usage. If you use 
 
 ## 🗺️ Overview
 
-DoubleTake takes as input posed RGB images, and outputs a depth map for a target image.
+DoubleTake takes as input posed RGB images, and outputs a depth map for a target image. Under the hood, it uses a mesh it itself builds either online (incrementally) or offline (mesh built on one pass and used for better depth on the second pass) to improve its own depth estimates.
 
 ## ⚙️ Setup
 
