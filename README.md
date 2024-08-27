@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/aa2052df-79f4-43a8-ab24-d704660f228a
   <img src="media/mesh_teaser.png" alt="example output" width="720" />
 </p>
 
-Please, refer to the the [license file](LICENSE) for terms of usage. If you use this codebase in your research, please consider citing our paper using the BibTex below and link this repo. Thanks!
+Please, refer to the the [license file](LICENSE) for terms of usage. If you use this codebase in your research, please consider citing our paper using the BibTex below and linking this repo. Thanks!
 
 ## Table of Contents
 
