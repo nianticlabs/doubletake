@@ -275,7 +275,7 @@ python ./scripts/data_scripts/generate_test_tuples.py
 
 # dense tuples
 python ./scripts/data_scripts/generate_test_tuples.py 
-    --data_config configs/data/scannet_dense_test.yaml
+    --data_config configs/data/scannet/scannet_dense_test.yaml
     --num_workers 16
 ```
 
