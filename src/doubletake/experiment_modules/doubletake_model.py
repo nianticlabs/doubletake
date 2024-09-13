@@ -31,10 +31,12 @@ from doubletake.utils.geometry_utils import NormalGenerator
 from doubletake.utils.metrics_utils import compute_depth_metrics
 from doubletake.utils.visualization_utils import colormap_image
 
+from huggingface_hub import PyTorchModelHubMixin
+
 logger = logging.getLogger(__name__)
 
 
-class DepthModelCVHint(pl.LightningModule):
+class DepthModelCVHint(pl.LightningModule, PyTorchModelHubMixin, repo_url="https://github.com/nianticlabs/doubletake", pipeline_tag="image-to-3d", license="other"):
     """Class for DoubleTake depth estimators.
 
     This class handles training and inference for DoubleTake models.
